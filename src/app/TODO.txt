@@ -1,0 +1,47 @@
+TODO: 
+    Errors: 
+        - (Fixed I think) Error in API Validate User when it calls getuserbyID, returns all []s (Fixed I think)
+        - (Fixed) Incorrect styling of home view components for timer and stats
+
+        - (Fixed) Timer stuff still isnt right. Stops when navigated away from. Should not factor in elapsed time when paused
+        - (Fixed) Can still login with incorrect information
+
+        - (Fixed) Exercise cards not appearing in exercise view after being added
+        - (Fixed) Exercises only appearing after addition of exercise, then disappearing after refresh
+        - (Fixed) Error completing the workout
+
+        - (Fixed) Cannot add or remove sets or muscle groups.
+        - (Fixed) Add Exercise card doesnt add muscle groups
+        - (Fixed): Literally the entire add exercise component is just fucked
+
+        - (Fixed): Personal Bests do not show up
+        - (Fixed): Exercise Cards should not rely workout exercises, should pull from user exercises
+        - (Fixed): Update lbs styling, add commas
+        - (Fixed): Sometimes current workout shows up for the wrong user (only on first sign in) - probably a check on login/signup
+
+        - (Fixed): Workout Context mad when I finish a workout, might be calling refresh somewhere I shouldn't
+        - (Fixed): To solve muscle group thing, just make some sort of dropdown menu to select the muscle groups
+        - (Fixed): PBs are wrong after finishing a workout. New workouts are undefined, old pbs are stored with weight 1
+
+        - (Fixed): Workout name updates itself and loops and never finishes
+        - (Added): Log Out button
+        - (Added): Profile Page should only render (30?) workouts
+        - (Fixed): Updating user info just doesn't work, API error.
+
+        - (Not Fixed): Personal Bests aren't working again
+
+    
+    - Fix muscle group dropdown styling and logic slightly
+
+
+    (Added)
+    Stats Page:
+    - Tab 1: Personal Bests
+        - Just a list of personal best cards, ordered by date (newest first)
+    - Tab 2: workouts:
+        - Workout history summary:
+            - Total Workouts, Total Weight, Total Time
+        - Github ciontributions style calender of workouts, with filled in being days worked out.
+            - Have year filters starting at 2025, and I guess adding one each time a new year passes
+
+    
